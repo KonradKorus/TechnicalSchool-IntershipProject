@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>TCKPiU</title>
+    <meta charset="UTF-8">
+    <meta name="describtion" content="">
+    <meta name="keyword" content="">
+    <meta name="author" content="Konrad Korus">
+    <meta name="copyright" content="Konrad Korus">
+    <meta name="generator" content="Brackets++">
+    <meta name="reply-to" content="konradkor@interia.pl">
+    <meta name="robots" content="all">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JavaScript/actions.js"></script>
+
+</head>
+
+<body>
+    <div class="normal_site">
+        <div id="huge_img">
+            <div class="black">
+                <div id="nav">
+                    <div id="logo_img">
+                        <img src="../img/logo.png" alt="logo" id="logo">
+                    </div>
+
+                    <p> <span>Tarnowskie Centrum Kształcenia <br> Praktycznego i Ustawicznego</span></p>
+
+                    <div id="vert_menu">
+                        <ul id="menu1">
+                            <li onclick="show_menu();"><a><span>Menu</span></a></li>
+                        </ul>
+                    </div>
+                    <ul id="menu">
+                        <li class="li"><a href="../index.html"><span>Strona Główna</span></a></li>
+                        <li class="li" id="high12" onmouseover="highlight('high1');" onmouseout="no_highlight('high1');"><a id="high1"><span>Praktyki i kursy</span></a>
+                            <ul>
+                                <li><a href="../sites/Praktyki/Praktyki.html">Kursy</a> </li>
+                                <li><a href="../sites/Praktyki/centrum.html">Centrum obsługi praktyk </a> </li>
+                                <li><a href="../sites/Praktyki/osrodek.html">Ośrodek egzaminacyjny </a> </li>
+                                <li><a href="../sites/Praktyki/rodo.html">Rodo</a> </li>
+                            </ul>
+                        </li>
+                       <li class="li" onmouseover="highlight('high3');" onmouseout="no_highlight('high3');" id="high32"><a id="high3"><span>Projekt RPO <br>2014-2020</span></a>
+                         <ul>
+                                     <li><a href="../sites/RPO.html" >RPO</a></li>
+                                <li><a href="../sites/RPO/RPO_aktualnosci.html" >Aktualnosci</a></li>
+                                <li><a href="../sites/RPO/formy_wsparcia.html">Formy wsparcia</a> </li>
+                                <li><a href="../media/Prezentacja_RPO.ppt">Prezentacja</a> </li>
+                                <li><a href="../sites/Pobieranie.html">Dokumenty do pobrania</a> </li>
+                            </ul>
+                        </li>
+                        <li class="li" onmouseout="no_highlight('high2');" onmouseover="highlight('high2');"><a id="high2" class="active"><span>O nas</span></a>
+                            <ul>
+                                <li><a href="../sites/Kadra.html" class="active2">Kadra pedagogiczna</a></li>
+                                <li><a href="../sites/Pracownie.html">Pracownie</a> </li>
+                            </ul>
+                        </li>
+                        <li class="li"><a href="../sites/Pobieranie.html"><span>Do pobrania</span></a></li>
+
+                    </ul>
+                    <div id="back" onclick="show_menu()">
+                        <p>Powrót</p>
+                    </div>
+                </div>
+                <!------------------------------------nav koniec------------------------------------->
+
+
+                <div class="content_standard">
+                    <h1>Kadra pedagogiczna</h1>
+                    <table id="legenda">
+                        <tr>
+                            <td><a href="#legenda">Nauczyciel dyplomowany</a></td>
+                            <td id="specjalista"><a href="#spec_first">Specjalista</a></td>
+                            <td id="mianowany"><a href="#mian_first">Nauczyciel mianowany</a></td>
+
+                            <td id="kontraktowy" class="legenda_last"><a href="#kontrakt_first">Nauczyciel kontraktowy</a></td>
+                        </tr>
+                    </table>
+
+                    <table id="nauczyciele">
+                        <tr>
+                            <th>
+                                Imię i nazwisko
+                            </th>
+                            <th>
+                                Stanowisko, specjalność
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>Marek Onak</td>
+                            <td><strong>Dyrektor TCKPiU</strong><br> naprawa pojazdów samochodowych</td>
+                        </tr>
+                        <tr>
+                            <td>Paweł Kordzikowski</td>
+                            <td><strong>Wicedyrektor TCKPiU</strong><br> Komputerowe wspomaganie projektowania,<br>
+                                EGZAMINATOR ECDL - CAD</td>
+                        </tr>
+
+                        <tr>
+                            <td>Roman Toporowski</td>
+                            <td><strong>Kierownik warsztatów TCKPiU</strong><br>
+                                Metrologia, mechanika, weryfikacja i naprawa części maszyn,
+                                obróbka ręczna metali, podstawy konstrukcji maszyn.<br>
+                                EGZAMINATOR W ZAWODACH: ŚLUSARZ, MECHANIK MASZYN</td>
+                        </tr>
+                        <tr>
+                            <td>Kazimierz Grochulski</td>
+                            <td>Mechatronika, techniki komputerowe,<br>
+                                EGZAMINATOR W ZAWODACH: TECHNIK ELEKTRONIK, TECHNIK ELEKTRYK, ELEKTRYK,
+                                ELEKTROMECHANIK, MONTER ELEKTRONIK</td>
+                        </tr>
+                        <tr>
+                            <td>Waldemar Sus</td>
+                            <td>Metrologia, Komputerowe wspomaganie projektowania - AutoCAD / INVENTOR</td>
+                        </tr>
+                        <tr>
+                            <td>Krzysztof Sorota</td>
+                            <td>Elektronika, elektrotechnika</td>
+                        </tr>
+                        <tr>
+                            <td>Tadeusz Król</td>
+                            <td>Mechanika, obróbka skrawaniem, naprawa i diagnostyka pojazdów</td>
+                        </tr>
+                        <tr>
+                            <td>Piotr Reczek</td>
+                            <td>Elektronika, automatyka, programowanie</td>
+                        </tr>
+                        <tr>
+                            <td>Adam Wantuch</td>
+                            <td>Automatyka przemysłowa, programowanie obrabiarek CNC</td>
+                        </tr>
+                        <tr>
+                            <td>Waldemar Piątek</td>
+                            <td>Elektrotechnika</td>
+                        </tr>
+                        <tr>
+                            <td>Artur Sereda</td>
+                            <td>Automatyka, mechanika</td>
+                        </tr>
+                        <tr>
+                            <td>Paweł Obal</td>
+                            <td>Elektronika i Elektrotechnika</td>
+                        </tr>
+                        <tr>
+                            <td>Szymański Grzegorz</td>
+                            <td>Elektronika, programowanie sterowników PLC, mechatronika</td>
+                        </tr>
+                        <tr>
+                            <td>Wiesław Stańczyk</td>
+                            <td>Elektronika i elektrotechnika</td>
+                        </tr>
+                        <tr>
+                            <td>Paweł Kisiel</td>
+                            <td>Elektronika i elektrotechnika</td>
+                        </tr>
+                        <tr>
+                            <td>Paweł Krzemień</td>
+                            <td>Informatyka</td>
+                        </tr>
+                        <tr id="spec_first">
+                            <td>Bartłomiej Osuchowicz</td>
+                            <td>Język angielski</td>
+                        </tr>
+                        <tr class="last" >
+                            <td>Lucyna Szlechta</td>
+                            <td>Przedsiębiorczość</td>
+                        </tr>
+
+
+                        <tr class="specjalista" >
+                            <td>Tomasz Piekarski</td>
+                            <td>Naprawa pojazdów samochodowych</td>
+                        </tr>
+                        <tr class="specjalista">
+                            <td>Kinga Schab</td>
+                            <td>Informatyka</td>
+                        </tr>
+                        <tr class="specjalista">
+                            <td>Wacław Kozioł</td>
+                            <td>Elektronika</td>
+                        </tr>
+                        <tr class="specjalista" id="mian_first">
+                            <td>Łukasz Gancarz</td>
+                            <td>Diagnostyka pojazdów samochodowych</td>
+                        </tr>
+                        <tr class="specjalista last">
+                            <td>Rafał Taraszka</td>
+                            <td>Informatyka</td>
+                        </tr>
+
+
+                        <tr class="mianowany">
+                            <td>Antoni Irla</td>
+                            <td>Obróbka skrawaniem</td>
+                        </tr>
+                        <tr class="mianowany">
+                            <td>Bogdan Gil</td>
+                            <td>Obróbka skrawaniem, obróbka ręczna</td>
+                        </tr>
+                        <tr class="mianowany">
+                            <td>Mieczysław Staszków</td>
+                            <td>Obróbka skrawaniem</td>
+                        </tr>
+                        <tr class="mianowany">
+                            <td>Bogusław Smagacz</td>
+                            <td>Spawanie, mechanika</td>
+                        </tr>
+                        <tr class="mianowany">
+                            <td>Marek Setlik</td>
+                            <td>Elektronika i elektrotechnika</td>
+                        </tr>
+                        <tr class="mianowany">
+                            <td>Leszek Dziedzic</td>
+                            <td>Metrologia warsztatowa, obróbka skrawaniem</td>
+                        </tr>
+                        <tr class="mianowany" id="kontrakt_first">
+                            <td>Piotr Miotła</td>
+                            <td>Diagnostyka pojazdów samochodowych</td>
+                        </tr>
+                        <tr class="mianowany last">
+                            <td>Kazimierz Kmietowicz</td>
+                            <td>Programowanie obrabiarek CNC</td>
+                        </tr>
+
+                        <tr class="kontraktowy">
+                            <td>Artur Maciołek</td>
+                            <td>Diagnostyka pojazdów samochodowych</td>
+                        </tr>
+                        <tr class="kontraktowy">
+                            <td>Janusz Rymanowski</td>
+                            <td>Komputerowe wspomaganie projektowania - instalacje elektryczne</td>
+                        </tr>
+
+                    </table>
+
+
+                </div>
+
+
+
+                <div id="new">
+                    <div class="black2">
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!--black and img end --->
+
+        <div class="patron">
+            <div>
+
+                <a href="https://bip.malopolska.pl/tckptarnow/" target="_blank"><img src="../img/bip.png" alt="BIP"></a>
+            </div>
+            <div>
+                <a href="https://edunet.tarnow.pl/pl" target="_blank"><img src="../img/edunet2.jpg" alt="edunet"></a>
+            </div>
+            <div>
+                <a href="https://www.funduszeeuropejskie.gov.pl/" target="_blank"><img src="../img/Fundusze_europejskie.png" alt="Fundusze europejskie"></a>
+            </div>
+            <div>
+                <a href="https://www.malopolska.pl/" target="_blank"><img src="../img/malopolska.png" alt="Małopolska"></a>
+            </div>
+            <div>
+                <a href="http://www.tarnow.pl/" target="_blank"><img src="../img/tarnow.png" alt="Tarnów"></a>
+            </div>
+            <div><a href="https://www.funduszeeuropejskie.gov.pl/efs/" target="_blank">
+                    <img src="../img/unia_europejska.png" alt="Europejski Fundusz społeczny">
+                </a>
+            </div>
+
+        </div>
+        <div id="sponsorzy">
+            <h2>Współpraca:</h2>
+            <div>
+                <div class="patron" id="patron1">
+                    <div>
+
+                        <a href="https://www.siemens-home.bsh-group.com/pl/" target="_blank"><img src="../img/siemens.png" alt="siemens"></a>
+                    </div>
+                    <div>
+                        <a href="http://www.controlprocess.pl" target="_blank"><img src="../img/control_process.png" alt="control_process"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.se.com/pl/pl/" target="_blank"><img src="../img/schneider.png" alt="schneider"></a>
+                    </div>
+                    <div>
+                        <a href="http://www.4metal.pl" target="_blank"><img src="../img/4metal.png" alt="4metal"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.satel.pl" target="_blank"><img src="../img/satel.png" alt="Satel"></a>
+                    </div>
+                    <div><a href="https://mitutoyo.pl/pl_pl/" target="_blank">
+                            <img src="..//img/mitutoyo.png" alt="mityutoyo">
+                        </a>
+                    </div>
+                    <div><a href="http://www.maciolek.com.pl" target="_blank">
+                            <img src="../img/sam.png" alt="sam">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="patron" id="patron2">
+                    <div>
+                        <a href="https://panoramafirm.pl/małopolskie,,tarnów,narutowicza,25/zaklad_mechaniki_pojazdowej_mgr_inz._ludwik_labno-przuo_prt.html" target="_blank"><img src="../img/mechanika_łabno.PNG" alt="mechanika_łabno"></a>
+                    </div>
+                    <div>
+                        <a href="https://polska.raben-group.com" target="_blank"><img src="../img/raben.png" alt="Raben"></a>
+                    </div>
+                    <div>
+                        <a href="http://karnisz.pl" target="_blank"><img src="../img/zegar.png" alt="zegar"></a>
+                    </div>
+                    <div>
+                        <a href="http://desal.pl/pl/" target="_blank"><img src="../img/desal.png" alt="desal"></a>
+                    </div>
+                    <div>
+                        <a href="http://www.zmt.tarnow.pl/wordpress/
+                                    " target="_blank"><img src="../img/mechaniczne.png" alt="Zakłady_mechaniczne"></a>
+                    </div>
+                    <div>
+                        <a href="http://www.fmt-tarnow.pl" target="_blank"><img src="../img/fmt.png" alt="FMT"></a>
+                    </div>
+                    <div>
+                        <a href="http://www.marcosta.pl" target="_blank"><img src="..//img/marcosta.png" alt="MarcostaP"></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!---end sponsorzy-->
+
+
+
+        <div id="footer_back">
+            <div id="footer" class="footer_align">
+                <div id="logo_footer">
+                    <div>
+                        <img src="../img/logo.png" alt="">
+                    </div>
+                    <p>Tarnowskie Centrum Kształcenia Praktycznego i Ustawicznego</p>
+                </div>
+                <div id="kontakt">
+                    <div id="kontakt1">
+                        <h2>Kontakt</h2>
+                        <p>
+                            ul. Szujskiego 13 <br>
+                            33-100 Tarnów <br>
+                            tel. (fax): +48 14 621-26-81 <br>
+                            e-mail: tckp@poczta.fm</p>
+                    </div>
+                    <div id="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10255.767467084497!2d20.976175260852028!3d50.012444804919014!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4942e7b18a97655c!2sTarnowskie+Centrum+Kszta%C5%82cenia+Praktycznego+i+Ustawicznego!5e0!3m2!1spl!2spl!4v1557677630099!5m2!1spl!2spl" width="450" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-------------- koniec div id="footer"-------------------->
+
+
+</body>
+
+
+</html>

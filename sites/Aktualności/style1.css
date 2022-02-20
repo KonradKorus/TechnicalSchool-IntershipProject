@@ -1,0 +1,57 @@
+h2{
+    width: 75%;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 4% auto 2% auto;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1%;
+    font-size: 2em;
+
+}
+p
+{
+    color:  white;
+    width: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+       padding: 0 5%;
+    font-size: 1.2em;
+}
+.akt_img
+{
+    width: 80%;
+    margin: 2% auto 0 auto;
+    min-width: 600px;
+
+}
+.akt_img img
+{
+    width:100%;
+    border-radius: 15px;
+    min-width:100px;
+}
+.akt_img a
+{
+    display: inline-block;
+
+    width:20%;
+    padding:0.4%;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.3);
+    margin:  1.7% 1.3%;
+    min-width: 120px;
+}
+.akt_img a:hover
+{
+    background-color: rgba(255,255,255,0);
+    border:none;
+    transition: 1s;
+    cursor:zoom-in;
+}
+
+.akt_img a:hover >img
+{
+    transform: scale(1.05);
+    transition:1s;
+}

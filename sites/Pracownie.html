@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>TCKPiU</title>
+    <meta charset="UTF-8">
+    <meta name="describtion" content="">
+    <meta name="keyword" content="">
+    <meta name="author" content="Konrad Korus">
+    <meta name="copyright" content="Konrad Korus">
+    <meta name="generator" content="Brackets++">
+    <meta name="reply-to" content="konradkor@interia.pl">
+    <meta name="robots" content="all">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JavaScript/actions.js"></script>
+
+</head>
+
+<body>
+    <div class="normal_site">
+        <div id="huge_img">
+            <div class="black">
+                <div id="nav">
+                    <div id="logo_img">
+                        <img src="../img/logo.png" alt="logo" id="logo">
+                    </div>
+
+                    <p> <span>Tarnowskie Centrum Kształcenia <br> Praktycznego i Ustawicznego</span></p>
+
+                    <div id="vert_menu">
+                        <ul id="menu1">
+                            <li onclick="show_menu();"><a><span>Menu</span></a></li>
+                        </ul>
+                    </div>
+                    <ul id="menu">
+                        <li class="li"><a href="../index.html"><span>Strona Główna</span></a></li>
+                        <li class="li" id="high12" onmouseover="highlight('high1');" onmouseout="no_highlight('high1');"><a id="high1"><span>Praktyki i kursy</span></a>
+                            <ul>
+                                <li><a href="../sites/Praktyki/Praktyki.html">Kursy</a> </li>
+                                <li><a href="../sites/Praktyki/centrum.html">Centrum obsługi praktyk </a> </li>
+                                <li><a href="../sites/Praktyki/osrodek.html">Ośrodek egzaminacyjny </a> </li>
+                                <li><a href="../sites/Praktyki/rodo.html">Rodo</a> </li>
+                            </ul>
+                        </li>
+                        <li class="li" onmouseover="highlight('high3');" onmouseout="no_highlight('high3');" id="high32"><a id="high3"><span>Projekt RPO <br>2014-2020</span></a>
+                            <ul>
+
+                                <li><a href="../sites/RPO.html">RPO</a></li>
+                                <li><a href="../sites/RPO/RPO_aktualnosci.html">Aktualnosci</a></li>
+                                <li><a href="../sites/RPO/formy_wsparcia.html">Formy wsparcia</a> </li>
+                                <li><a href="../media/Prezentacja_RPO.ppt">Prezentacja</a> </li>
+                                <li><a href="../sites/Pobieranie.html">Dokumenty do pobrania</a> </li>
+                            </ul>
+                        </li>
+                        <li class="li" onmouseout="no_highlight('high2');" onmouseover="highlight('high2');"><a id="high2" class="active"><span>O nas</span></a>
+                            <ul>
+                                <li><a href="../sites/Kadra.html">Kadra pedagogiczna</a></li>
+                                <li><a href="../sites/Pracownie.html" class="active2">Pracownie</a> </li>
+                            </ul>
+                        </li>
+
+                        <li class="li"><a href="../sites/Pobieranie.html"><span>Do pobrania</span></a></li>
+
+                    </ul>
+                    <div id="back" onclick="show_menu()">
+                        <p>Powrót</p>
+                    </div>
+                </div>
+                <!------------------------------------nav koniec------------------------------------->
+                <div onclick="pracownie_show();" id="pracownie_btn">Pracownie</div>
+                <div id="pracownie_flexbox">
+                    <div id="menu_pracownie">
+                        <ul>
+                            <li class="first_pracownie">Pracownie: </li>
+                            <li><a href="../sites/Pracownie/automatyki_przemysłowej.html" target="pracownie" onclick="schowaj();">Automatyki przemysłowej</a></li>
+                            <li><a href="../sites/Pracownie/automatyki_i_elektroniki.html" target="pracownie" onclick="schowaj();">Automatyki i elektroniki</a></li>
+                            <li><a href="../sites/Pracownie/elektromechaniki.html" target="pracownie" onclick="schowaj();"> Elektromechaniki</a></li>
+                            <li><a>Elektroniki</a>
+                                <ul>
+                                    <li><a href="../sites/Pracownie/elektroniki1.html" target="pracownie" onclick="schowaj();"> Elektroniki #1</a></li>
+                                    <li><a href="../sites/Pracownie/elektroniki2.html" target="pracownie" onclick="schowaj();"> Elektroniki #2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../sites/Pracownie/elektryczno_elektroniczna.html" target="pracownie" onclick="schowaj();">Elektryczno - elektroniczna</a></li>
+                            <li><a>Elektryczna</a>
+                                <ul>
+                                    <li><a href="../sites/Pracownie/elektryczna1.html" target="pracownie" onclick="schowaj();"> Elektryczna #1</a></li>
+                                    <li><a href="../sites/Pracownie/elektryczna2.html" target="pracownie" onclick="schowaj();"> Elektryczna #2</a></li>
+                                </ul>
+
+                            </li>
+                            <li><a href="../sites/Pracownie/komputerowa.html" target="pracownie" onclick="schowaj();">Komputerowa</a></li>
+                            <li><a href="../sites/Pracownie/technik_komputerowych.html" target="pracownie" onclick="schowaj();">Technik komputerowych</a></li>
+                            <li><a href="../sites/Pracownie/projektowania_komputerowego.html" target="pracownie" onclick="schowaj();">Projektowania komputerowego</a></li>
+                            <li><a href="../sites/Pracownie/diagnostyka_komputerowa.html" target="pracownie" onclick="schowaj();">Diagnostyki komputerowej</a></li>
+                            <li><a>Mechatroniki</a>
+                                <ul>
+                                    <li><a href="../sites/Pracownie/mechatroniki1.html" target="pracownie" onclick="schowaj();"> Mechatroniki #1</a></li>
+                                    <li><a href="../sites/Pracownie/mechatroniki2.html" target="pracownie" onclick="schowaj();">Mechatroniki #2</a></li>
+                                </ul>
+
+                            </li>
+                            <li><a href="../sites/Pracownie/obrobki_recznej.html" target="pracownie" onclick="schowaj();">Obróbki ręcznej</a></li>
+                            <li><a href="../sites/Pracownie/naprawa_pojazdow.html" target="pracownie" onclick="schowaj();">Naprawy pojazdów</a></li>
+                            <li><a href="../sites/Pracownie/diagnostyka_samochodowa.html" target="pracownie" onclick="schowaj();">Diagnostyki samochodowej</a></li>
+                            <li><a href="../sites/Pracownie/metrologii.html" target="pracownie" onclick="schowaj();">Metrologii warsztatowej</a></li>
+                            <li><a>Obrabiarek CNC</a>
+                                <ul>
+                                    <li><a href="../sites/Pracownie/CNC1.html" target="pracownie" onclick="schowaj();"> Obrabiarek CNC #1</a></li>
+                                    <li><a href="../sites/Pracownie/CNC2.html" target="pracownie" onclick="schowaj();">Obrabiarek CNC #2</a></li>
+                                </ul>
+
+                            </li>
+
+                            <li><a href="../sites/Pracownie/obrobki_skrawaniem.html" target="pracownie" onclick="schowaj();">Obróbki skrawaniem</a></li>
+                            <li><a href="../sites/Pracownie/HASS.html" target="pracownie" onclick="schowaj();">Centrum HAAS</a></li>
+                        </ul>
+
+                    </div>
+
+
+
+                    <div id="pracownie_iframe">
+                        <iframe src="../sites/Pracownie/automatyki_przemysłowej.html" frameborder="0" width="100%" height="1300" name="pracownie"></iframe>
+                    </div>
+
+                </div>
+
+                <div id="new">
+                    <div class="black2">
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!--black and img end --->
+
+        <div class="patron">
+            <div>
+
+                <a href="https://bip.malopolska.pl/tckptarnow/" target="_blank"><img src="../img/bip.png" alt="BIP"></a>
+            </div>
+            <div>
+                <a href="https://edunet.tarnow.pl/pl" target="_blank"><img src="../img/edunet2.jpg" alt="edunet"></a>
+            </div>
+            <div>
+                <a href="https://www.funduszeeuropejskie.gov.pl/" target="_blank"><img src="../img/Fundusze_europejskie.png" alt="Fundusze europejskie"></a>
+            </div>
+            <div>
+                <a href="https://www.malopolska.pl/" target="_blank"><img src="../img/malopolska.png" alt="Małopolska"></a>
+            </div>
+            <div>
+                <a href="http://www.tarnow.pl/" target="_blank"><img src="../img/tarnow.png" alt="Tarnów"></a>
+            </div>
+            <div><a href="https://www.funduszeeuropejskie.gov.pl/efs/" target="_blank">
+                    <img src="../img/unia_europejska.png" alt="Europejski Fundusz społeczny">
+                </a>
+            </div>
+
+        </div>
+        <div id="sponsorzy">
+            <h2>Współpraca:</h2>
+            <div>
+                <div class="patron" id="patron1">
+                    <div>
+
+                        <a href="https://www.siemens-home.bsh-group.com/pl/" target="_blank"><img src="../img/siemens.png" alt="siemens"></a>
+                    </div>
+                    <div>
+                        <a href="http://www.controlprocess.pl" target="_blank"><img src="../img/control_process.png" alt="control_process"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.se.com/pl/pl/" target="_blank"><img src="../img/schneider.png" alt="schneider"></a>
+                    </div>
+                    <div>
+                        <a href="http://www.4metal.pl" target="_blank"><img src="../img/4metal.png" alt="4metal"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.satel.pl" target="_blank"><img src="../img/satel.png" alt="Satel"></a>
+                    </div>
+                    <div><a href="https://mitutoyo.pl/pl_pl/" target="_blank">
+                            <img src="..//img/mitutoyo.png" alt="mityutoyo">
+                        </a>
+                    </div>
+                    <div><a href="http://www.maciolek.com.pl" target="_blank">
+                            <img src="../img/sam.png" alt="sam">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="patron" id="patron2">
+                    <div>
+                        <a href="https://panoramafirm.pl/małopolskie,,tarnów,narutowicza,25/zaklad_mechaniki_pojazdowej_mgr_inz._ludwik_labno-przuo_prt.html" target="_blank"><img src="../img/mechanika_łabno.PNG" alt="mechanika_łabno"></a>
+                    </div>
+                    <div>
+                        <a href="https://polska.raben-group.com" target="_blank"><img src="../img/raben.png" alt="Raben"></a>
+                    </div>
+                    <div>
+                        <a href="http://karnisz.pl" target="_blank"><img src="../img/zegar.png" alt="zegar"></a>
+                    </div>
+                    <div>
+                        <a href="http://desal.pl/pl/" target="_blank"><img src="../img/desal.png" alt="desal"></a>
+                    </div>
+                    <div>
+                        <a href="http://www.zmt.tarnow.pl/wordpress/
+                                    " target="_blank"><img src="../img/mechaniczne.png" alt="Zakłady_mechaniczne"></a>
+                    </div>
+                    <div>
+                        <a href="http://www.fmt-tarnow.pl" target="_blank"><img src="../img/fmt.png" alt="FMT"></a>
+                    </div>
+                    <div>
+                        <a href="http://www.marcosta.pl" target="_blank"><img src="..//img/marcosta.png" alt="MarcostaP"></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!---end sponsorzy-->
+
+
+
+        <div id="footer_back">
+            <div id="footer" class="footer_align">
+                <div id="logo_footer">
+                    <div>
+                        <img src="../img/logo.png" alt="">
+                    </div>
+                    <p>Tarnowskie Centrum Kształcenia Praktycznego i Ustawicznego</p>
+                </div>
+                <div id="kontakt">
+                    <div id="kontakt1">
+                        <h2>Kontakt</h2>
+                        <p>
+                            ul. Szujskiego 13 <br>
+                            33-100 Tarnów <br>
+                            tel. (fax): +48 14 621-26-81 <br>
+                            e-mail: tckp@poczta.fm</p>
+                    </div>
+                    <div id="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10255.767467084497!2d20.976175260852028!3d50.012444804919014!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4942e7b18a97655c!2sTarnowskie+Centrum+Kszta%C5%82cenia+Praktycznego+i+Ustawicznego!5e0!3m2!1spl!2spl!4v1557677630099!5m2!1spl!2spl" width="450" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-------------- koniec div id="footer"-------------------->
+
+
+</body>
+
+
+</html>
